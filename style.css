@@ -14,6 +14,8 @@ body {
 
 h1 {
     color: teal;
+    border-bottom: solid teal 1px;
+    margin-bottom: 25px;
 }
 
 /* bottom margin to make sure sticky footer does not cover content */
@@ -21,6 +23,7 @@ h1 {
 main {
     background-color: #f8f9fa;
     margin-bottom: 80px;
+    padding: 20px;
 }
 
 footer {

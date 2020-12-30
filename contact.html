@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <!-- responsive nav bar same on each page  -->
+    <!-- responsive nav bar same on each page -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Renae Sowald</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
@@ -42,11 +42,11 @@
 
         </div>
     </nav>
-    <!-- container wrapper for responsive content  -->
+    <!-- container wrapper for responsive content -->
     <main class="container-sm">
-        <!-- card class provides a structured container, in this case with header  -->
+        <!-- card class provides a structured container, in this case with header -->
         <form class="card">
-            <!-- card header separates from the card body and h1 tag allows for color change  -->
+            <!-- card header separates from the card body and h1 tag allows for color change -->
             <h1 class="card-header">Contact</h1>
             <div class="card-body">
                 <section class="form-group">
@@ -61,7 +61,8 @@
                     <label for="textArea">Message</label>
                     <textarea class="form-control" id="textArea" rows="3" placeholder="Message"></textarea>
                 </section>
-                <a type="button" href="#" class="btn btn-primary">Submit</a>
+                <!-- used reset button on purpose since the submit will not actually be able to send message -->
+                <button type="reset" class="btn btn-primary">Submit</button>
             </div>
         </form>
     </main>
