@@ -7,7 +7,7 @@ nav {
 /*Style all background styles not styled by bootstrap*/
 
 body {
-    background-image: url("Background.jpg");
+    background-image: url("/assets/Background.jpg");
     background-color: thistle;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -24,6 +24,10 @@ main {
     background-color: #f8f9fa;
     margin-bottom: 80px;
     padding: 20px;
+}
+
+img {
+    padding: 10px;
 }
 
 footer {
