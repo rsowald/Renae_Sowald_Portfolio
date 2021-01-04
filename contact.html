@@ -37,27 +37,32 @@
     </nav>
     <!-- container wrapper for responsive content -->
     <main class="container-sm">
-        <!-- card class provides a structured container, in this case with header -->
-        <form class="card">
-            <!-- card header separates from the card body and h1 tag allows for color change -->
-            <h1 class="card-header">Contact</h1>
-            <div class="card-body">
-                <section class="form-group">
-                    <label for="Name">Name</label>
-                    <input type="text" class="form-control" id="Name" placeholder="First and last name">
-                </section>
-                <section class="form-group">
-                    <label for="emailInput">Email</label>
-                    <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
-                </section>
-                <section class="form-group">
-                    <label for="textArea">Message</label>
-                    <textarea class="form-control" id="textArea" rows="3" placeholder="Message"></textarea>
-                </section>
-                <!-- used reset button on purpose since the submit will not actually be able to send message -->
-                <button type="reset" class="btn btn-primary">Submit</button>
-            </div>
-        </form>
+        <!-- div to keep container 8 col  -->
+        <div class="row">
+            <article class="col-sm-8 background">
+                <!-- card class provides a structured container, in this case with header -->
+                <form class="card">
+                    <!-- card header separates from the card body and h1 tag allows for color change -->
+                    <h1 class="card-header">Contact</h1>
+                    <div class="card-body">
+                        <section class="form-group">
+                            <label for="Name">Name</label>
+                            <input type="text" class="form-control" id="Name" placeholder="First and last name">
+                        </section>
+                        <section class="form-group">
+                            <label for="emailInput">Email</label>
+                            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                        </section>
+                        <section class="form-group">
+                            <label for="textArea">Message</label>
+                            <textarea class="form-control" id="textArea" rows="3" placeholder="Message"></textarea>
+                        </section>
+                        <!-- used reset button on purpose since the submit will not actually be able to send message -->
+                        <button type="reset" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </article>
+        </div>
     </main>
 
     <!-- sticky footer same on every page  -->
@@ -66,6 +71,7 @@
             <span class="text-muted">Made with love by Renae Sowald 2020</span>
         </div>
     </footer>
+
     <!-- quit forgetting to include the js link when you use toggle components! -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

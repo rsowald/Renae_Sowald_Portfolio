@@ -34,6 +34,11 @@ img {
     padding: 10px;
 }
 
+.portrait {
+    max-width: 50%;
+    max-height: auto;
+}
+
 footer {
     background-color: #3e403e;
     border-top: solid teal 6px;
