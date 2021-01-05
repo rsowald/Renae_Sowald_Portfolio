@@ -31,7 +31,11 @@ main {
 }
 
 img {
-    padding: 10px;
+    margin: 10px;
+}
+
+.figure-caption {
+    margin-left: 10px;
 }
 
 .portrait {
