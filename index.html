@@ -12,13 +12,14 @@
 </head>
 
 <body>
+    <!-- responsive nav bar same on each page -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Renae Sowald</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
+        <!-- responsive toggler menu  -->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
@@ -30,6 +31,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+                <!-- dropdown menu for social media links  -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -60,7 +62,9 @@
                 <div class="row">
                     <section class="col-sm-6">
                         <h2>Background</h2>
-                        <img class="float-right portrait" src="assets/PORTRAIT.jpg" alt="Self Portrait">
+                        <!-- used float class to wrap text around image within col -->
+                        <!-- used portrait class for sizing in custom CSS and portrait orientation -->
+                        <img class="float-right rounded portrait" src="assets/PORTRAIT.jpg" alt="Self Portrait">
                         <p>I was born in Ohio, had several years of moving around the United States with military
                             parents,
                             and moved back to Ohio again in time to graduate high school. I met my future husband when
@@ -79,7 +83,8 @@
                     </section>
                     <section class="col-sm-6">
                         <h2>Current Projects</h2>
-                        <img class="float-right portrait" src="assets/Kids portrait.jpg" alt="Kids Portrait">
+                        <!-- used portrait class for sizing in custom CSS and portrait orientation -->
+                        <img class="float-right rounded portrait" src="assets/Kids portrait.jpg" alt="Kids Portrait">
                         <p>My full time job is stay-at-home parent. It is the most exhausting job I've ever had, but
                             very rewarding in its own ways. With my youngest set to start Kindergarten in the fall of
                             2021, it is time to focus on other projects as well.</p>
@@ -104,13 +109,13 @@
             </article>
         </div>
     </main>
-
+    <!-- sticky footer same on every page  -->
     <footer class="fixed-bottom footer mt-auto py-3">
         <div class="container">
             <span class="text-muted">Made with love by Renae Sowald 2020</span>
         </div>
     </footer>
-
+    <!--remember the bootstrap js source at the end!-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

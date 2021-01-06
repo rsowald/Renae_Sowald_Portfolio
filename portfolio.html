@@ -12,13 +12,14 @@
 </head>
 
 <body>
+    <!-- responsive nav bar same on each page -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Renae Sowald</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
+        <!-- responsive toggler menu  -->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item">
@@ -30,6 +31,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+                <!-- dropdown menu for social media links  -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -48,17 +50,20 @@
 
         </div>
     </nav>
-
+    <!-- container wrapper for responsive content -->
     <main class="container-sm">
         <div class="row">
+            <!-- div container to keep container 8 col wide -->
             <article class="col-sm-8 background">
                 <div class="row">
                     <div class="col-sm-12">
                         <h1>Portfolio</h1>
                     </div>
                 </div>
+                <!-- figures grouped into rows of 2 with separate col for each fig  -->
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
+                        <!-- used figure tag to include a caption. images on anchors to link to deployed projects -->
                         <figure class="figure">
                             <a href="https://rsowald.github.io/prework-about-me/" target="_blank" rel="noopener"
                                 rel="noreferrer"><img class="figure-img img-fluid border border-dark"
@@ -98,13 +103,13 @@
         </div>
 
     </main>
-
+    <!-- sticky footer same on every page  -->
     <footer class="fixed-bottom footer mt-auto py-3">
         <div class="container">
             <span class="text-muted">Made with love by Renae Sowald 2020</span>
         </div>
     </footer>
-
+    <!--remember the bootstrap js source at the end!-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

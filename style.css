@@ -30,13 +30,19 @@ main {
     padding: 20px;
 }
 
+/* give space around all images so I don't need margin classes on each element  */
+
 img {
     margin: 10px;
 }
 
+/* align left margin with images  */
+
 .figure-caption {
     margin-left: 10px;
 }
+
+/* portrait images set to take up half of their column width  */
 
 .portrait {
     max-width: 50%;
