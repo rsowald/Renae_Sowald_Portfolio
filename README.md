@@ -24,6 +24,7 @@ Even with the plethora of Bootstrap components, it is still necessary to include
 <br>
 <img src="assets/xs_res.jpg" alt="Application at extra small Resolution" width="200">
 <br>
+[[https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png|width=100px]]
 
 ## Acknowlegements
 Background photo by <a href="https://unsplash.com/@monaeendra?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mona Eendra</a> on <a href="https://unsplash.com/s/photos/background?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
