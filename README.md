@@ -15,16 +15,15 @@ Some of the Bootstrap components and utilities used are:
 Even with the plethora of Bootstrap components, it is still necessary to include my own custom CSS styles. If every website that used Bootstrap relied only on the default styling, every website would look identical expect for content. My goal is always to make a unique application while still utilizing the power of a framework like Bootstrap.
 
 ## Examples
-<br>
+
 <img src="assets/lrg_res.jpg" alt="Application at Large Resolution" width="700">
 <br>
-<img src="assets/med_res.jpg" alt="Application at Medium Resolution" width="500">
+<img src="assets/md_res.jpg" alt="Application at Medium Resolution" width="500">
 <br>
 <img src="assets/sm_res.jpg" alt="Application at Small Resolution" width="350">
 <br>
 <img src="assets/xs_res.jpg" alt="Application at extra small Resolution" width="200">
 <br>
-[[https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png|width=100px]]
 
 ## Acknowlegements
 Background photo by <a href="https://unsplash.com/@monaeendra?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mona Eendra</a> on <a href="https://unsplash.com/s/photos/background?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
