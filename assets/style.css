@@ -10,6 +10,7 @@ nav {
 
 body {
     background-image: url("background.jpg");
+    background-size: cover;
     background-color: thistle;
     font-family: 'Montserrat', sans-serif;
 }
@@ -28,7 +29,7 @@ main {
 }
 
 .background {
-    background-color: #f8f9fa;
+    background-color: #f1f2f3;
     padding: 20px;
 }
 

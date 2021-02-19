@@ -55,9 +55,9 @@
     <!-- container wrapper for responsive content -->
     <main class="container-sm">
         <!-- div to keep container 9 col wide -->
-        <div class="row">
-            <article class="col-sm-9">
-                <div class="jumbotron jumbotron-fluid">
+        <article class="row">
+            <div class="col-sm-9">
+                <div class="jumbotron jumbotron-fluid background">
                     <div class="container">
                         <h1 class="display-4">Hello, dev world!</h1>
                         <img class="img-fluid float-right rounded-circle portrait" src="assets/indexPortrait.jpg"
@@ -68,11 +68,21 @@
                         <p>Visit my portfolio to see how far I've come on my journey.</p>
                         <p class="lead">
                             <a class="btn btn-outline-info" href="portfolio.html" role="button">Go</a>
+                            <a class="btn btn-outline-info" href="assets/resume.pdf" role="button">My Resume</a>
                         </p>
                     </div>
                 </div>
-            </article>
-        </div>
+            </div>
+        </article>
+        <!-- Potentially put featured projects on this landing page, but there are not enough projects on the portfolio page to require this yet -->
+        <!-- <article class="row">
+            <div class="col-sm-9 background">
+                <h1>Featured Projects</h1>
+                <h2>Meal Planner</h2>
+                <h2>Weather Dashboard</h2>
+                <h2>Workday Scheduler</h2>
+            </div>
+        </article> -->
     </main>
 
     <!-- sticky footer same on every page  -->
