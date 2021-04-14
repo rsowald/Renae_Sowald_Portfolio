@@ -28,7 +28,9 @@ This portfolio is also an opportunity for me to present my finished projects in 
 <br>
 
 ## Future Features
-When I learn more about server-side coding, I will add functionality to my contact page.
+- I will add functionality to my contact page.
+- I would like to use a templating engine to generate my views. This would be especially helpful with the portfolio cards and partials.
+- I would like to set up a server and routes instead of hard coding all of my linked pages together.
 ## Acknowledgements
 Background photo by <span>Photo by <a href="https://unsplash.com/@tvick?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Taylor Vick</a> on <a href="https://unsplash.com/s/photos/seattle?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
