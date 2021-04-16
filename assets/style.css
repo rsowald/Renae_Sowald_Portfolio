@@ -28,6 +28,11 @@ main {
     padding: 20px;
 }
 
+.resume-heading {
+    text-align: center;
+    font-weight: bold;
+}
+
 .background {
     background-color: #f1f2f3;
     padding: 20px;
