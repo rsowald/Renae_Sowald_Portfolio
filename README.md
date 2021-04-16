@@ -1,6 +1,6 @@
 # ResponsivePortfolio
 
-[View deployed application](https://rsowald.github.io/ResponsivePortfolio/)
+[View deployed application](https://rsowald.github.io/Renae_Sowald_Portfolio/)
 
 ## About the Project
 The purpose of this project was to create a responsive professional portfolio using Bootstrap. In our modern digital world, optimizing applications for different resolutions and devices is imperative to their success. With more than 50% of web traffic being accessed from mobile devices, an application that is developed to look good only on a large resolution computer screen just does not make sense. While CSS makes it possible to develop a responsive application using media queries, floats on images, and extensive uses of classes on divs, it is much simpler to develop using Bootstrap.
@@ -27,8 +27,6 @@ This portfolio is also an opportunity for me to present my finished projects in 
 <img src="assets/screenshots/xs_res.jpg" alt="Application at extra small Resolution" width="200">
 <br>
 
-## Future Features
-When I learn more about server-side coding, I will add functionality to my contact page.
 ## Acknowledgements
 Background photo by <span>Photo by <a href="https://unsplash.com/@tvick?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Taylor Vick</a> on <a href="https://unsplash.com/s/photos/seattle?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
